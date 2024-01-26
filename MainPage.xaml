@@ -7,6 +7,7 @@
         <VerticalStackLayout>
             <Label
     x:Name="Update"
+                HorizontalTextAlignment="Center"
     Text="Обновление требуется - "/>
             <Button
                 Clicked="versionCheckClick"

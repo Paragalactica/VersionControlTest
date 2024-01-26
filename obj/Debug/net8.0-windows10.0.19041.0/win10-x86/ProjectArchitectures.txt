@@ -1,0 +1,1 @@
+C:\VS2022\Projects\VersionControl\VersionControl.csproj;x86
