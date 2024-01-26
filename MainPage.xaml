@@ -6,6 +6,8 @@
     <ScrollView>
         <VerticalStackLayout>
             <Label
+                Text="New Version"/>
+            <Label
     x:Name="Update"
                 HorizontalTextAlignment="Center"
     Text="Обновление требуется - "/>

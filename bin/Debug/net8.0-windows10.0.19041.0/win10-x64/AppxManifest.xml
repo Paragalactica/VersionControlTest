@@ -7,7 +7,7 @@
 
  Дополнительные сведения о файлах манифестов приложений см. по адресу http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="com.companyname.versioncontrol" Publisher="CN=User Name" Version="1.0.0.0" ProcessorArchitecture="x64" />
+  <Identity Name="com.companyname.versioncontrol" Publisher="CN=Николай" Version="1.1.1.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="9969FBB8-92C4-48DD-9E9D-F7E98DBBF245" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>VersionControl</DisplayName>

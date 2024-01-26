@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>VersionControl</id>
+    <version>1.0.0</version>
+    <authors>VersionControl</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="2b793879f890975215f589b0c3397084ac6eef13" />
+    <dependencies>
+      <group targetFramework="net8.0-android34.0">
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Controls" version="8.0.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Controls.Compatibility" version="8.0.3" exclude="Build,Analyzers" />
+        <dependency id="Octokit" version="9.1.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0-ios17.0">
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Controls" version="8.0.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Controls.Compatibility" version="8.0.3" exclude="Build,Analyzers" />
+        <dependency id="Octokit" version="9.1.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0-maccatalyst17.0">
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Controls" version="8.0.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Controls.Compatibility" version="8.0.3" exclude="Build,Analyzers" />
+        <dependency id="Octokit" version="9.1.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0-windows10.0.19041">
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Controls" version="8.0.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Controls.Compatibility" version="8.0.3" exclude="Build,Analyzers" />
+        <dependency id="Octokit" version="9.1.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\VS2022\Projects\VersionControl\bin\Debug\net8.0-android\VersionControl.runtimeconfig.json" target="lib\net8.0-android34.0\VersionControl.runtimeconfig.json" />
+    <file src="C:\VS2022\Projects\VersionControl\bin\Debug\net8.0-android\VersionControl.dll" target="lib\net8.0-android34.0\VersionControl.dll" />
+    <file src="C:\VS2022\Projects\VersionControl\bin\Debug\net8.0-android\VersionControl.xml" target="lib\net8.0-android34.0\VersionControl.xml" />
+    <file src="C:\VS2022\Projects\VersionControl\bin\Debug\net8.0-ios\iossimulator-x64\VersionControl.runtimeconfig.json" target="lib\net8.0-ios17.0\VersionControl.runtimeconfig.json" />
+    <file src="C:\VS2022\Projects\VersionControl\bin\Debug\net8.0-ios\iossimulator-x64\VersionControl.dll" target="lib\net8.0-ios17.0\VersionControl.dll" />
+    <file src="C:\VS2022\Projects\VersionControl\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\VersionControl.runtimeconfig.json" target="lib\net8.0-maccatalyst17.0\VersionControl.runtimeconfig.json" />
+    <file src="C:\VS2022\Projects\VersionControl\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\VersionControl.dll" target="lib\net8.0-maccatalyst17.0\VersionControl.dll" />
+    <file src="C:\VS2022\Projects\VersionControl\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\VersionControl.runtimeconfig.json" target="lib\net8.0-windows10.0.19041\VersionControl.runtimeconfig.json" />
+    <file src="C:\VS2022\Projects\VersionControl\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\VersionControl.dll" target="lib\net8.0-windows10.0.19041\VersionControl.dll" />
+    <file src="C:\VS2022\Projects\VersionControl\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri" target="lib\net8.0-windows10.0.19041\resources.pri" />
+  </files>
+</package>
