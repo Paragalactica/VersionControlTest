@@ -6,6 +6,7 @@
     <ScrollView>
         <VerticalStackLayout>
             <Label
+                x:Name="Control"
                 Text="New Version"/>
             <Label
     x:Name="Update"
